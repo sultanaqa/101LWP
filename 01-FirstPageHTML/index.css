@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+}
+
+div {
+    border-style:hidden;
+    background-color: brown;
+    margin: 0px;
+    padding-left: px;
+}
+
+.part1{
+    padding-left: 15px;
+    color: antiquewhite;
+    font-size: larger;
+}
+
+.part2 {
+    
+    padding-left: 1500px;
+}
+
+.part3 {
+    padding-left: 50px;
+    color:white;
+}
+
+#text {
+    color:white;
+
+}
+
+#text2 {
+    color: white;
+}
+
+.part4 {
+    text-align: center;
+}
+
+.fas {
+    font-size: 100px;
+    color: brown;
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
+
+.part5 {
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 350px;
+    color: brown;
+}
+
+
