@@ -1,0 +1,57 @@
+.div1 {
+    position: relative;
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assets/img/big.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.div2 {
+    position: relative;
+    background-color: yellow;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assets/img/big.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.div3 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assets/img/folder-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.gradient {
+    background: linear-gradient(to bottom right, purple, hotpink);
+    opacity: 0.5;
+    height: 100vh;
+    width: 100%;
+}
+
+.div4 {
+    background: linear-gradient(to bottom right, yellow, hotpink, purple, lightblue);
+    height: 100vh;
+    width: 100vw;
+}
+
+h1,h2,h3 {
+    font-size: 70px;
+    color: aliceblue;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
