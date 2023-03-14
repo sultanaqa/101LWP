@@ -1,0 +1,116 @@
+.masterbox {
+    position: relative;
+    box-sizing: border-box;
+    margin: 60px auto;
+    background-color: bisque;
+    width: 800px;
+    height: 800px;
+}
+
+.mainbox1 {
+
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    transition: 2s;
+}
+
+.mainbox2 {
+
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    transition: 2s;
+}
+
+.mainbox3 {
+
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 400px;
+    right: 200px;
+    transition: 2s;
+}
+
+.mainbox4 {
+
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    transition: 2s;
+}
+
+.box1 {
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.box2 {
+    background-color: thistle;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 0px;
+    top: 100px;
+}
+
+.box3 {
+    background-color: goldenrod;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.box4 {
+    background-color: royalblue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 0px;
+    left: 100px;
+
+}
+
+.masterbox:hover .mainbox1 {
+    left: 0px;
+    rotate: 90deg;
+}
+
+.masterbox:hover .mainbox2 {
+    right: 0px;
+    rotate: -90deg;
+
+}
+
+.masterbox:hover .mainbox3 {
+    right: 0px;
+    rotate: 90deg;
+}
+
+.masterbox:hover .mainbox4 {
+    left: 0px;
+    rotate: -90deg;
+}
+
+.torpaq {
+    font-size: xx-large;
+    position: absolute;
+    top: 350px;
+    left: 300px;
+
+
+}
+
