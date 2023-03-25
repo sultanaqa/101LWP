@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(252, 239, 220);
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 40px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(252, 239, 220);
+    box-shadow: 1px 1px 8px   black;
+
+}
+
+a {
+    font-family: inherit;
+    color: inherit;
+    text-decoration: inherit;
+    transition: 500ms;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+.doe {
+    color: goldenrod;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+
+}
+
+.johndoe {
+    height: 100vh;
+}
+
+.home {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: sans-serif;
+
+
+}
+
+img {
+    width: 400px;
+
+
+}
+
+.image {
+
+
+    border: 5px solid goldenrod;
+    border-radius: 6px;
+    position: relative;
+    width: 400px;
+    height: 500px;
+}
+
+.imagein {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+button {
+    background-color: gold;
+    font-size: large;
+    transition: 500ms;
+    width: 100px;
+    height: 50px;
+    border: 2px;
+    border-radius: 9px;
+
+
+}
+
+button:hover {
+    background-color: goldenrod;
+}
+
+.bordertop {
+    border-top: 4px solid goldenrod;
+}
+
+.icons {
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jone {
+    font-size: 90px;
+}
+
+.home-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40%;
+}
+
+.about {
+    height: 100vh;
+    background-color: white;
+}
+
+.about-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: sans-serif;
+}
+
+.about-2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40%;
+}
+
+.about-3 {
+    border-bottom: 4px solid goldenrod;
+    font-size: 80px;
+}
+
+.about-x {
+    font-size: 80px;
+}
+
+.text {
+    color: rgb(37, 128, 158);
+}
+
+.image2 {
+
+
+    border: 5px solid goldenrod;
+    border-radius: 6px;
+    position: relative;
+    width: 400px;
+    height: 600px;
+}
+
+.imagein2 {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+.services {
+    height:80vh;
+    width: 100%;
+    background-color:aliceblue;
+}
+.cardbox {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.cardbox > div {
+    background-color: white;
+    height: 350px;
+    border: 10px;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    transition: 500ms;
+}
+b{
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+    text-decoration-thickness:5px;
+    text-underline-offset: 10px;
+}
+.cardboxicon {
+    font-size: 30px;
+}
+
+.cardbox > div:hover {
+    color: white;
+    background-color: goldenrod;
+}
+.footer {
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+}
+.foot {
+    display: flex;
+    flex-direction: column;
+}
+.iconsend {
+    margin-top: 30px;
+    font-size: xx-large;
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    color: gold;
+}
+.text1 {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: xxx-large;
+    position: relative;
+    top:100px;
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+    text-decoration-thickness:5px;
+    text-underline-offset: 15px;
+    
+}
+.about-2 {
+    height: 80vh;
+}
+.mainabout-2 {
+    width: 100%;
+position: relative;
+left: 110%;
+text-align: center;
+}
+h3 {
+    margin-bottom: 50px;
+    font-size: xxx-large;
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+    text-decoration-thickness:5px;
+    text-underline-offset: 15px;
+  
+    
+    
+}
+.contactlink{
+    color: gold;
+}
+.projects-1 {
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(252, 239, 220);
+}
+.myproject{
+    width: 100%;
+    height: 50vh;
+    background-color:rgb(252, 239, 220) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xxx-large;
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+    text-decoration-thickness:5px;
+    text-underline-offset: 20px;
+    
+    
+}
+.projects-2 {
+    height: 50vh;
+    background-color: white;
+}
+.macbook {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.iconev {
+    font-size: xx-large;
+    background-color: gold;
+    border:13px solid gold;
+    outline: 9px solid white;
+    border-radius: 50%;
+    position: relative;
+    right: 240px;
+    top: 9px;
+    
+     
+}
