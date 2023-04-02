@@ -1,0 +1,984 @@
+.containery {
+    font-family: 'Palanquin';
+    width: 1530px;
+    height: 144px;
+    background: rgba(247, 247, 247, 1);
+
+    .containery-1 {
+        width: 1000px;
+        height: 144px;
+        margin: auto;
+        display: flex;
+
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 1000px;
+        }
+    }
+}
+// media containery start
+ @media  screen and (max-width: 768px) {
+    .containery {
+        font-family: 'Palanquin';
+        width: 600px;
+        height: auto;
+        background: rgba(247, 247, 247, 1);
+    
+        .containery-1 {
+            width: 600px;
+            height: auto;
+            margin: 0;
+            display: flex;
+    
+    
+            ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
+                width: 600px;
+                
+            }
+        }
+    }
+ }
+ // media containery end
+
+
+.containerz {
+    font-family: 'Palanquin';
+    width: 1530px;
+    height: 1028px;
+
+    .containerz-1 {
+        width: 1000px;
+        height: 1028px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: auto;
+
+        .bags1 {
+            width: 1000px;
+            height: 162px;
+            display: flex;
+            justify-content: space-around;
+
+            .bags1-1 {
+                position: relative;
+                width: 230px;
+                height: 162px;
+                background: rgba(249, 249, 249, 1);
+
+
+                .bag {
+                    position: absolute;
+                    top: 24px;
+                    left: 24px;
+                    font-weight: 500;
+                    font-size: 18px;
+                }
+
+                .bags-image {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+
+                }
+            }
+        }
+
+        .bags2 {
+            width: 1000px;
+            display: flex;
+            flex-direction: column;
+
+            .bags2-1 {
+                width: 1000px;
+                height: 200px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                h4 {
+                    font-size: 32px;
+                    font-weight: 500;
+
+                }
+
+                .view {
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+
+            .bags2-2 {
+                width: 1000px;
+                display: flex;
+                justify-content: space-between;
+                // gap: 24px;
+
+                .card {
+                    position: relative;
+                    width: 300px;
+                    height: 508px;
+                    background: rgba(249, 249, 249, 1);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    .otuz {
+                        width: 79px;
+                        height: 32px;
+                        border-radius: 8px;
+                        background: #DF4244;
+                        color: white;
+                        position: absolute;
+                        top: 16px;
+                        left: 16px;
+                        border: none;
+
+                    }
+
+                    .heartdolu {
+                        position: absolute;
+                        top: 18px;
+                        right: 17px;
+                        color: #DF4244;
+                        font-weight: bolder;
+                    }
+
+                    .new {
+                        width: 79px;
+                        height: 32px;
+                        border-radius: 8px;
+                        background: rgba(67, 209, 103, 1);
+                        color: white;
+                        position: absolute;
+                        top: 16px;
+                        left: 16px;
+                        border: none;
+
+                    }
+
+                    .heart {
+                        position: absolute;
+                        top: 18px;
+                        right: 17px;
+                        color: red;
+                    }
+
+                    .addcard {
+                        width: 250px;
+                        height: 50px;
+                        position: absolute;
+                        bottom: 20px;
+                        left: 25px;
+                        font-size: 16px;
+                        font-weight: 500;
+                        background: rgba(249, 249, 249, 1);
+                        border-radius: 8px;
+                        border-width: 1px;
+                    }
+
+                    .cardback {
+                        height: 243px;
+                        width: 200px;
+                        align-self: center;
+
+                    }
+
+                    .cardtext {
+                        font-weight: 400;
+                        font-size: 16px;
+                    }
+
+                    .sale {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+
+                        .reddollar {
+                            font-weight: 600;
+                            color: red;
+                            font-size: 20px;
+
+                        }
+
+                        .fromdollar {
+                            font-size: 16px;
+                            color: rgba(54, 54, 54, 0.75);
+                            font-weight: 400;
+
+                        }
+                    }
+
+
+
+
+                }
+            }
+
+        }
+
+    }
+}
+// media z start
+@media screen and (max-width: 768px) {
+    .containerz {
+        font-family: 'Palanquin';
+        width: 600px;
+        height: auto;
+    
+        .containerz-1 {
+            width: 600px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            
+    
+            .bags1 {
+                width:600px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+    
+                .bags1-1 {
+                    position: relative;
+                    width: 230px;
+                    height: 162px;
+                    background: rgba(249, 249, 249, 1);
+    
+    
+                    .bag {
+                        position: absolute;
+                        top: 24px;
+                        left: 24px;
+                        font-weight: 500;
+                        font-size: 18px;
+                    }
+    
+                    .bags-image {
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+    
+                    }
+                }
+            }
+    
+            .bags2 {
+                width: 600px;
+                display: flex;
+                flex-direction: column;
+    
+                .bags2-1 {
+                    width: 600px;
+                    height: 200px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+    
+                    h4 {
+                        font-size: 32px;
+                        font-weight: 500;
+    
+                    }
+    
+                    .view {
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+    
+                .bags2-2 {
+                    width: 600px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    height: auto;
+                    justify-content: space-between;
+                    // gap: 24px;
+    
+                    .card {
+                        position: relative;
+                        width: 300px;
+                        height: 508px;
+                        background: rgba(249, 249, 249, 1);
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+    
+                        .otuz {
+                            width: 79px;
+                            height: 32px;
+                            border-radius: 8px;
+                            background: #DF4244;
+                            color: white;
+                            position: absolute;
+                            top: 16px;
+                            left: 16px;
+                            border: none;
+    
+                        }
+    
+                        .heartdolu {
+                            position: absolute;
+                            top: 18px;
+                            right: 17px;
+                            color: #DF4244;
+                            font-weight: bolder;
+                        }
+    
+                        .new {
+                            width: 79px;
+                            height: 32px;
+                            border-radius: 8px;
+                            background: rgba(67, 209, 103, 1);
+                            color: white;
+                            position: absolute;
+                            top: 16px;
+                            left: 16px;
+                            border: none;
+    
+                        }
+    
+                        .heart {
+                            position: absolute;
+                            top: 18px;
+                            right: 17px;
+                            color: red;
+                        }
+    
+                        .addcard {
+                            width: 250px;
+                            height: 50px;
+                            position: absolute;
+                            bottom: 20px;
+                            left: 25px;
+                            font-size: 16px;
+                            font-weight: 500;
+                            background: rgba(249, 249, 249, 1);
+                            border-radius: 8px;
+                            border-width: 1px;
+                        }
+    
+                        .cardback {
+                            height: 243px;
+                            width: 200px;
+                            align-self: center;
+    
+                        }
+    
+                        .cardtext {
+                            font-weight: 400;
+                            font-size: 16px;
+                        }
+    
+                        .sale {
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+    
+                            .reddollar {
+                                font-weight: 600;
+                                color: red;
+                                font-size: 20px;
+    
+                            }
+    
+                            .fromdollar {
+                                font-size: 16px;
+                                color: rgba(54, 54, 54, 0.75);
+                                font-weight: 400;
+    
+                            }
+                        }
+    
+    
+    
+    
+                    }
+                }
+    
+            }
+    
+        }
+    }
+
+}
+// media z end
+
+.containera {
+    font-family: 'Palanquin';
+    width: 1530px;
+    height: 738px;
+    background: rgba(255, 247, 247, 1);
+
+    .containera-1 {
+        width: 1000px;
+        margin: auto;
+
+        .bags2-1-1 {
+            width: 1000px;
+            height: 200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h4 {
+                font-size: 32px;
+                font-weight: 500;
+
+            }
+
+            .view {
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+
+        .bags2-2-2 {
+            width: 1000px;
+            display: flex;
+            justify-content: space-between;
+            // gap: 24px;
+
+            .card {
+                position: relative;
+                width: 300px;
+                height: 508px;
+                background: rgba(255, 255, 255, 1);
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .otuz {
+                    width: 79px;
+                    height: 32px;
+                    border-radius: 8px;
+                    background: #DF4244;
+                    color: white;
+                    position: absolute;
+                    top: 16px;
+                    left: 16px;
+                    border: none;
+
+                }
+
+                .heartdolu {
+                    position: absolute;
+                    top: 18px;
+                    right: 17px;
+                    color: #DF4244;
+                    font-weight: bolder;
+                }
+
+                .new {
+                    width: 79px;
+                    height: 32px;
+                    border-radius: 8px;
+                    background: rgba(67, 209, 103, 1);
+                    color: white;
+                    position: absolute;
+                    top: 16px;
+                    left: 16px;
+                    border: none;
+
+                }
+
+                .heart {
+                    position: absolute;
+                    top: 18px;
+                    right: 17px;
+                    color: red;
+                }
+
+                .addcard {
+                    width: 250px;
+                    height: 50px;
+                    position: absolute;
+                    bottom: 20px;
+                    left: 25px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    background: rgba(249, 249, 249, 1);
+                    border-radius: 8px;
+                    border-width: 1px;
+                }
+
+                .cardback {
+                    height: 243px;
+                    width: 200px;
+                    align-self: center;
+
+                }
+
+                .cardtext {
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+
+                .sale {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    .reddollar {
+                        font-weight: 600;
+                        color: red;
+                        font-size: 20px;
+
+                    }
+
+                    .fromdollar {
+                        font-size: 16px;
+                        color: rgba(54, 54, 54, 0.75);
+                        font-weight: 400;
+
+                    }
+                }
+
+
+
+
+            }
+        }
+    }
+
+}
+// media a start
+@media screen and (max-width: 768px) {
+    .containera {
+        font-family: 'Palanquin';
+        width:600px;
+        height: auto;
+        background: rgba(255, 247, 247, 1);
+    
+        .containera-1 {
+            width: 600px;
+            margin: 0;
+            align-items: center;
+            justify-content: center;
+    
+            .bags2-1-1 {
+                width: 600px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+    
+                h4 {
+                    font-size: 32px;
+                    font-weight: 500;
+    
+                }
+    
+                .view {
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+    
+            .bags2-2-2 {
+                width: 600px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                // gap: 24px;
+    
+                .card {
+                    position: relative;
+                    width: 300px;
+                    height: 508px;
+                    background: rgba(255, 255, 255, 1);
+    
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+    
+                    .otuz {
+                        width: 79px;
+                        height: 32px;
+                        border-radius: 8px;
+                        background: #DF4244;
+                        color: white;
+                        position: absolute;
+                        top: 16px;
+                        left: 16px;
+                        border: none;
+    
+                    }
+    
+                    .heartdolu {
+                        position: absolute;
+                        top: 18px;
+                        right: 17px;
+                        color: #DF4244;
+                        font-weight: bolder;
+                    }
+    
+                    .new {
+                        width: 79px;
+                        height: 32px;
+                        border-radius: 8px;
+                        background: rgba(67, 209, 103, 1);
+                        color: white;
+                        position: absolute;
+                        top: 16px;
+                        left: 16px;
+                        border: none;
+    
+                    }
+    
+                    .heart {
+                        position: absolute;
+                        top: 18px;
+                        right: 17px;
+                        color: red;
+                    }
+    
+                    .addcard {
+                        width: 250px;
+                        height: 50px;
+                        position: absolute;
+                        bottom: 20px;
+                        left: 25px;
+                        font-size: 16px;
+                        font-weight: 500;
+                        background: rgba(249, 249, 249, 1);
+                        border-radius: 8px;
+                        border-width: 1px;
+                    }
+    
+                    .cardback {
+                        height: 243px;
+                        width: 200px;
+                        align-self: center;
+    
+                    }
+    
+                    .cardtext {
+                        font-weight: 400;
+                        font-size: 16px;
+                    }
+    
+                    .sale {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+    
+                        .reddollar {
+                            font-weight: 600;
+                            color: red;
+                            font-size: 20px;
+    
+                        }
+    
+                        .fromdollar {
+                            font-size: 16px;
+                            color: rgba(54, 54, 54, 0.75);
+                            font-weight: 400;
+    
+                        }
+                    }
+    
+    
+    
+    
+                }
+            }
+        }
+    
+    }
+}
+// media a end
+
+.containerb {
+    font-family: 'Palanquin';
+    width: 1530px;
+    height: 738px;
+
+    .containerb-1 {
+        width: 1000px;
+        margin: auto;
+
+        .bags2-1-1 {
+            width: 1000px;
+            height: 200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h4 {
+                font-size: 32px;
+                font-weight: 500;
+
+            }
+
+            .view {
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+
+        .bags2-2-2 {
+            width: 1000px;
+            display: flex;
+            justify-content: space-between;
+            // gap: 24px;
+
+            .card {
+                position: relative;
+                width: 300px;
+                height: 508px;
+                background: rgba(249, 249, 249, 1);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .otuz {
+                    width: 79px;
+                    height: 32px;
+                    border-radius: 8px;
+                    background: #DF4244;
+                    color: white;
+                    position: absolute;
+                    top: 16px;
+                    left: 16px;
+                    border: none;
+
+                }
+
+                .heartdolu {
+                    position: absolute;
+                    top: 18px;
+                    right: 17px;
+                    color: #DF4244;
+                    font-weight: bolder;
+                }
+
+                .new {
+                    width: 79px;
+                    height: 32px;
+                    border-radius: 8px;
+                    background: rgba(67, 209, 103, 1);
+                    color: white;
+                    position: absolute;
+                    top: 16px;
+                    left: 16px;
+                    border: none;
+
+                }
+
+                .heart {
+                    position: absolute;
+                    top: 18px;
+                    right: 17px;
+                    color: red;
+                }
+
+                .addcard {
+                    width: 250px;
+                    height: 50px;
+                    position: absolute;
+                    bottom: 20px;
+                    left: 25px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    background: rgba(249, 249, 249, 1);
+                    border-radius: 8px;
+                    border-width: 1px;
+                }
+
+                .cardback {
+                    height: 243px;
+                    width: 200px;
+                    align-self: center;
+
+                }
+
+                .cardtext {
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+
+                .sale {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    .reddollar {
+                        font-weight: 600;
+                        color: red;
+                        font-size: 20px;
+
+                    }
+
+                    .fromdollar {
+                        font-size: 16px;
+                        color: rgba(54, 54, 54, 0.75);
+                        font-weight: 400;
+
+                    }
+                }
+
+
+
+
+            }
+        }
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .containerb {
+        font-family: 'Palanquin';
+        width: 600px;
+        height: auto;
+    
+        .containerb-1 {
+            width: 600px;
+            margin: 0;
+    
+            .bags2-1-1 {
+                width: 600px;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+    
+                h4 {
+                    font-size: 32px;
+                    font-weight: 500;
+    
+                }
+    
+                .view {
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+    
+            .bags2-2-2 {
+                width: 600px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                // gap: 24px;
+    
+                .card {
+                    position: relative;
+                    width: 300px;
+                    height: 508px;
+                    background: rgba(249, 249, 249, 1);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+    
+                    .otuz {
+                        width: 79px;
+                        height: 32px;
+                        border-radius: 8px;
+                        background: #DF4244;
+                        color: white;
+                        position: absolute;
+                        top: 16px;
+                        left: 16px;
+                        border: none;
+    
+                    }
+    
+                    .heartdolu {
+                        position: absolute;
+                        top: 18px;
+                        right: 17px;
+                        color: #DF4244;
+                        font-weight: bolder;
+                    }
+    
+                    .new {
+                        width: 79px;
+                        height: 32px;
+                        border-radius: 8px;
+                        background: rgba(67, 209, 103, 1);
+                        color: white;
+                        position: absolute;
+                        top: 16px;
+                        left: 16px;
+                        border: none;
+    
+                    }
+    
+                    .heart {
+                        position: absolute;
+                        top: 18px;
+                        right: 17px;
+                        color: red;
+                    }
+    
+                    .addcard {
+                        width: 250px;
+                        height: 50px;
+                        position: absolute;
+                        bottom: 20px;
+                        left: 25px;
+                        font-size: 16px;
+                        font-weight: 500;
+                        background: rgba(249, 249, 249, 1);
+                        border-radius: 8px;
+                        border-width: 1px;
+                    }
+    
+                    .cardback {
+                        height: 243px;
+                        width: 200px;
+                        align-self: center;
+    
+                    }
+    
+                    .cardtext {
+                        font-weight: 400;
+                        font-size: 16px;
+                    }
+    
+                    .sale {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+    
+                        .reddollar {
+                            font-weight: 600;
+                            color: red;
+                            font-size: 20px;
+    
+                        }
+    
+                        .fromdollar {
+                            font-size: 16px;
+                            color: rgba(54, 54, 54, 0.75);
+                            font-weight: 400;
+    
+                        }
+                    }
+    
+    
+    
+    
+                }
+            }
+    
+        }
+    }
+}

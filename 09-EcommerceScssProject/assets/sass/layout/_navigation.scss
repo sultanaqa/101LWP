@@ -1,0 +1,242 @@
+.containerc {
+    font-family: 'Palanquin';
+    background: rgba(247, 247, 249, 1);
+
+    width: 1530px;
+    height: 546px;
+
+    nav {
+        width: 1000px;
+        height: 546px;
+        margin: auto;
+
+        .footnav1 {
+            width: 1000px;
+            height: 100px;
+            border-bottom: 1px solid rgba(39, 49, 66, 0.15);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            input {
+                border: 1px solid rgba(39, 49, 66, 0.15);
+            }
+
+            h5 {
+                font-size: 40px;
+                font-weight: 700;
+            }
+        }
+
+        .footnav2 {
+            width: 1000px;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .footnav2-box1 {
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+                flex-direction: column;
+                width: 400px;
+                height: 400px;
+
+                button {
+                    background: rgba(247, 247, 249, 1);
+                    width: 149px;
+                    height: 48px;
+                    border-radius: 8px;
+                    border: 1px solid rgba(23, 23, 23, 1);
+                    ;
+
+                }
+
+            }
+
+            .footnav2-box2 {
+                justify-content: center;
+                gap: 10px;
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                // a {
+                //     display: block;
+                // }
+            }
+
+            .footnav2-box3 {
+                justify-content: center;
+                gap: 10px;
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                // a {
+                //     display: block;
+                // }
+            }
+
+            .footnav2-box4 {
+                justify-content: center;
+                gap: 10px;
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                // a {
+                //     display: block;
+                // }
+            }
+
+
+        }
+
+    }
+}
+// media navfoot end
+@media screen and (max-width: 768px) {
+    .containerc {
+        font-family: 'Palanquin';
+        background: rgba(247, 247, 249, 1);
+    
+        width: 600px;
+        height: auto;
+    
+        nav {
+            width: 600px;
+            height: auto;
+            margin: 0;
+    
+            .footnav1 {
+                width: 600px;
+                height: auto;
+                border-bottom: 1px solid rgba(39, 49, 66, 0.15);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+    
+                input {
+                    border: 1px solid rgba(39, 49, 66, 0.15);
+                    
+                }
+    
+                h5 {
+                    font-size: 40px;
+                    font-weight: 700;
+                }
+            }
+    
+            .footnav2 {
+                width: 600px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                justify-content: space-between;
+    
+                .footnav2-box1 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+                    flex-direction: column;
+                    width: 400px;
+                    height: 400px;
+    
+                    button {
+                        background: rgba(247, 247, 249, 1);
+                        width: 149px;
+                        height: 48px;
+                        border-radius: 8px;
+                        border: 1px solid rgba(23, 23, 23, 1);
+                        ;
+    
+                    }
+    
+                }
+    
+                .footnav2-box2 {
+                    justify-content: center;
+                    gap: 10px;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    // a {
+                    //     display: block;
+                    // }
+                }
+    
+                .footnav2-box3 {
+                    justify-content: center;
+                    gap: 10px;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    // a {
+                    //     display: block;
+                    // }
+                }
+    
+                .footnav2-box4 {
+                    justify-content: center;
+                    gap: 10px;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    // a {
+                    //     display: block;
+                    // }
+                }
+    
+    
+            }
+    
+        }
+    }
+}
+// media navfoot end
+
+footer {
+    font-family: 'Palanquin';
+    width: 1530px;
+    height: 72px;
+
+    .footermain {
+        width: 1000px;
+        height: 72px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .icons {
+            font-size: 20px;
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
+// media footer start
+@media screen and (max-width: 768px) {
+    footer {
+        font-family: 'Palanquin';
+        width: 600px;
+        height: auto;
+    
+        .footermain {
+            width: 600px;
+            height: auto;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            .icons {
+                font-size: 20px;
+                display: flex;
+                gap: 20px;
+            }
+        }
+    }
+}

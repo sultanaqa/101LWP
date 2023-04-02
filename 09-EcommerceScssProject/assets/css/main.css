@@ -1,0 +1,1240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, li {
+  list-style: none;
+}
+
+header {
+  width: 1530px;
+}
+
+.container1 {
+  width: 1530px;
+}
+.container1 .contact {
+  width: 1530px;
+  margin: auto;
+  height: 48px;
+  background-color: #007878;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container1 .contact ul {
+  display: flex;
+  gap: 20px;
+}
+.container1 .contact li {
+  height: auto;
+}
+.container1 .contact .contact-1 {
+  display: flex;
+  gap: 10px;
+}
+.container1 .navmain {
+  font-family: "Palanquin";
+  max-width: 1530px;
+  margin: auto;
+  height: 158px;
+}
+.container1 .navmain .navmain-2 {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.container1 .navmain .nav1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container1 .navmain .nav1 h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.container1 .navmain .nav1 ul {
+  display: flex;
+  gap: 20px;
+}
+.container1 .navmain .nav1 ul img {
+  height: 16px;
+  width: 16px;
+}
+.container1 .navmain .nav2 {
+  display: flex;
+  align-items: center;
+}
+.container1 .navmain .nav2 ul {
+  display: flex;
+  gap: 50px;
+}
+.container1 input[type=text] {
+  width: 504px;
+  height: 48px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: rgb(247, 249, 252);
+  background-image: url("../img/Vector (1).svg");
+  background-position: 450px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+.container1 .contaierx {
+  font-family: "Palanquin";
+  margin-top: 20px;
+  width: 1530px;
+  height: 584px;
+  background-color: #FFE2E0;
+}
+.container1 .contaierx .containerx-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1000px;
+  height: 584px;
+  margin: auto;
+}
+.container1 .contaierx .containerx-2 .box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 500px;
+}
+.container1 .contaierx .containerx-2 .box1 .points {
+  position: relative;
+  top: 50px;
+  display: flex;
+  gap: 8px;
+}
+.container1 .contaierx .containerx-2 .box1 .red {
+  color: rgb(223, 66, 68);
+  font-weight: 900;
+  font-size: larger;
+}
+.container1 .contaierx .containerx-2 .box1 h3 {
+  font-weight: bold;
+  font-size: xx-large;
+}
+.container1 .contaierx .containerx-2 .box1 .shop {
+  background: rgb(32, 99, 99);
+  color: white;
+  width: 192px;
+  height: 52px;
+  border-radius: 10px;
+  border: none;
+}
+.container1 .contaierx .containerx-2 .box2 {
+  width: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    width: 600px;
+  }
+  .container1 {
+    width: 600px;
+  }
+  .container1 .contact {
+    width: 600px;
+    margin: 0;
+    height: auto;
+    background-color: #007878;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .container1 .contact ul {
+    display: flex;
+    gap: 20px;
+  }
+  .container1 .contact li {
+    height: auto;
+  }
+  .container1 .contact .contact-1 {
+    display: flex;
+    gap: 10px;
+  }
+  .container1 .navmain {
+    font-family: "Palanquin";
+    max-width: 600px;
+    margin: auto;
+    height: auto;
+  }
+  .container1 .navmain .navmain-2 {
+    width: 600px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .container1 .navmain .nav1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container1 .navmain .nav1 h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .container1 .navmain .nav1 ul {
+    display: flex;
+    gap: 20px;
+  }
+  .container1 .navmain .nav1 ul img {
+    height: 16px;
+    width: 16px;
+  }
+  .container1 .navmain .nav2 {
+    display: flex;
+    align-items: center;
+  }
+  .container1 .navmain .nav2 ul {
+    display: flex;
+    gap: 50px;
+  }
+  .container1 input[type=text] {
+    width: 250px;
+    height: 48px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: rgb(247, 249, 252);
+    background-image: url("../img/Vector (1).svg");
+    background-position: 450px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  }
+  .container1 .contaierx {
+    font-family: "Palanquin";
+    margin-top: 20px;
+    width: 600px;
+    height: auto;
+    background-color: #FFE2E0;
+  }
+  .container1 .contaierx .containerx-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: auto;
+    margin: 0;
+  }
+  .container1 .contaierx .containerx-2 .box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 500px;
+  }
+  .container1 .contaierx .containerx-2 .box1 .points {
+    position: relative;
+    top: 50px;
+    display: flex;
+    gap: 8px;
+  }
+  .container1 .contaierx .containerx-2 .box1 .red {
+    color: rgb(223, 66, 68);
+    font-weight: 900;
+    font-size: larger;
+  }
+  .container1 .contaierx .containerx-2 .box1 h3 {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  .container1 .contaierx .containerx-2 .box1 .shop {
+    background: rgb(32, 99, 99);
+    color: white;
+    width: 192px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+  }
+  .container1 .contaierx .containerx-2 .box2 {
+    width: 500px;
+  }
+  .container1 .contaierx .containerx-2 .box2 .imagee {
+    width: 250px;
+  }
+}
+.containerc {
+  font-family: "Palanquin";
+  background: rgb(247, 247, 249);
+  width: 1530px;
+  height: 546px;
+}
+.containerc nav {
+  width: 1000px;
+  height: 546px;
+  margin: auto;
+}
+.containerc nav .footnav1 {
+  width: 1000px;
+  height: 100px;
+  border-bottom: 1px solid rgba(39, 49, 66, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerc nav .footnav1 input {
+  border: 1px solid rgba(39, 49, 66, 0.15);
+}
+.containerc nav .footnav1 h5 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.containerc nav .footnav2 {
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.containerc nav .footnav2 .footnav2-box1 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+}
+.containerc nav .footnav2 .footnav2-box1 button {
+  background: rgb(247, 247, 249);
+  width: 149px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid rgb(23, 23, 23);
+}
+.containerc nav .footnav2 .footnav2-box2 {
+  justify-content: center;
+  gap: 10px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.containerc nav .footnav2 .footnav2-box3 {
+  justify-content: center;
+  gap: 10px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.containerc nav .footnav2 .footnav2-box4 {
+  justify-content: center;
+  gap: 10px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .containerc {
+    font-family: "Palanquin";
+    background: rgb(247, 247, 249);
+    width: 600px;
+    height: auto;
+  }
+  .containerc nav {
+    width: 600px;
+    height: auto;
+    margin: 0;
+  }
+  .containerc nav .footnav1 {
+    width: 600px;
+    height: auto;
+    border-bottom: 1px solid rgba(39, 49, 66, 0.15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .containerc nav .footnav1 input {
+    border: 1px solid rgba(39, 49, 66, 0.15);
+  }
+  .containerc nav .footnav1 h5 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .containerc nav .footnav2 {
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .containerc nav .footnav2 .footnav2-box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+  }
+  .containerc nav .footnav2 .footnav2-box1 button {
+    background: rgb(247, 247, 249);
+    width: 149px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid rgb(23, 23, 23);
+  }
+  .containerc nav .footnav2 .footnav2-box2 {
+    justify-content: center;
+    gap: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .containerc nav .footnav2 .footnav2-box3 {
+    justify-content: center;
+    gap: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .containerc nav .footnav2 .footnav2-box4 {
+    justify-content: center;
+    gap: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+footer {
+  font-family: "Palanquin";
+  width: 1530px;
+  height: 72px;
+}
+footer .footermain {
+  width: 1000px;
+  height: 72px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footermain .icons {
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    font-family: "Palanquin";
+    width: 600px;
+    height: auto;
+  }
+  footer .footermain {
+    width: 600px;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer .footermain .icons {
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+  }
+}
+.containery {
+  font-family: "Palanquin";
+  width: 1530px;
+  height: 144px;
+  background: rgb(247, 247, 247);
+}
+.containery .containery-1 {
+  width: 1000px;
+  height: 144px;
+  margin: auto;
+  display: flex;
+}
+.containery .containery-1 ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+}
+
+@media screen and (max-width: 768px) {
+  .containery {
+    font-family: "Palanquin";
+    width: 600px;
+    height: auto;
+    background: rgb(247, 247, 247);
+  }
+  .containery .containery-1 {
+    width: 600px;
+    height: auto;
+    margin: 0;
+    display: flex;
+  }
+  .containery .containery-1 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+  }
+}
+.containerz {
+  font-family: "Palanquin";
+  width: 1530px;
+  height: 1028px;
+}
+.containerz .containerz-1 {
+  width: 1000px;
+  height: 1028px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.containerz .containerz-1 .bags1 {
+  width: 1000px;
+  height: 162px;
+  display: flex;
+  justify-content: space-around;
+}
+.containerz .containerz-1 .bags1 .bags1-1 {
+  position: relative;
+  width: 230px;
+  height: 162px;
+  background: rgb(249, 249, 249);
+}
+.containerz .containerz-1 .bags1 .bags1-1 .bag {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.containerz .containerz-1 .bags1 .bags1-1 .bags-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.containerz .containerz-1 .bags2 {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+.containerz .containerz-1 .bags2 .bags2-1 {
+  width: 1000px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerz .containerz-1 .bags2 .bags2-1 h4 {
+  font-size: 32px;
+  font-weight: 500;
+}
+.containerz .containerz-1 .bags2 .bags2-1 .view {
+  font-size: 16px;
+  font-weight: 400;
+}
+.containerz .containerz-1 .bags2 .bags2-2 {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.containerz .containerz-1 .bags2 .bags2-2 .card {
+  position: relative;
+  width: 300px;
+  height: 508px;
+  background: rgb(249, 249, 249);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.containerz .containerz-1 .bags2 .bags2-2 .card .otuz {
+  width: 79px;
+  height: 32px;
+  border-radius: 8px;
+  background: #DF4244;
+  color: white;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border: none;
+}
+.containerz .containerz-1 .bags2 .bags2-2 .card .heartdolu {
+  position: absolute;
+  top: 18px;
+  right: 17px;
+  color: #DF4244;
+  font-weight: bolder;
+}
+.containerz .containerz-1 .bags2 .bags2-2 .card .new {
+  width: 79px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgb(67, 209, 103);
+  color: white;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border: none;
+}
+.containerz .containerz-1 .bags2 .bags2-2 .card .heart {
+  position: absolute;
+  top: 18px;
+  right: 17px;
+  color: red;
+}
+.containerz .containerz-1 .bags2 .bags2-2 .card .addcard {
+  width: 250px;
+  height: 50px;
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  background: rgb(249, 249, 249);
+  border-radius: 8px;
+  border-width: 1px;
+}
+.containerz .containerz-1 .bags2 .bags2-2 .card .cardback {
+  height: 243px;
+  width: 200px;
+  align-self: center;
+}
+.containerz .containerz-1 .bags2 .bags2-2 .card .cardtext {
+  font-weight: 400;
+  font-size: 16px;
+}
+.containerz .containerz-1 .bags2 .bags2-2 .card .sale {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.containerz .containerz-1 .bags2 .bags2-2 .card .sale .reddollar {
+  font-weight: 600;
+  color: red;
+  font-size: 20px;
+}
+.containerz .containerz-1 .bags2 .bags2-2 .card .sale .fromdollar {
+  font-size: 16px;
+  color: rgba(54, 54, 54, 0.75);
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .containerz {
+    font-family: "Palanquin";
+    width: 600px;
+    height: auto;
+  }
+  .containerz .containerz-1 {
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .containerz .containerz-1 .bags1 {
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .containerz .containerz-1 .bags1 .bags1-1 {
+    position: relative;
+    width: 230px;
+    height: 162px;
+    background: rgb(249, 249, 249);
+  }
+  .containerz .containerz-1 .bags1 .bags1-1 .bag {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .containerz .containerz-1 .bags1 .bags1-1 .bags-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .containerz .containerz-1 .bags2 {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+  .containerz .containerz-1 .bags2 .bags2-1 {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .containerz .containerz-1 .bags2 .bags2-1 h4 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .containerz .containerz-1 .bags2 .bags2-1 .view {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .containerz .containerz-1 .bags2 .bags2-2 {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    justify-content: space-between;
+  }
+  .containerz .containerz-1 .bags2 .bags2-2 .card {
+    position: relative;
+    width: 300px;
+    height: 508px;
+    background: rgb(249, 249, 249);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .containerz .containerz-1 .bags2 .bags2-2 .card .otuz {
+    width: 79px;
+    height: 32px;
+    border-radius: 8px;
+    background: #DF4244;
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    border: none;
+  }
+  .containerz .containerz-1 .bags2 .bags2-2 .card .heartdolu {
+    position: absolute;
+    top: 18px;
+    right: 17px;
+    color: #DF4244;
+    font-weight: bolder;
+  }
+  .containerz .containerz-1 .bags2 .bags2-2 .card .new {
+    width: 79px;
+    height: 32px;
+    border-radius: 8px;
+    background: rgb(67, 209, 103);
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    border: none;
+  }
+  .containerz .containerz-1 .bags2 .bags2-2 .card .heart {
+    position: absolute;
+    top: 18px;
+    right: 17px;
+    color: red;
+  }
+  .containerz .containerz-1 .bags2 .bags2-2 .card .addcard {
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    background: rgb(249, 249, 249);
+    border-radius: 8px;
+    border-width: 1px;
+  }
+  .containerz .containerz-1 .bags2 .bags2-2 .card .cardback {
+    height: 243px;
+    width: 200px;
+    align-self: center;
+  }
+  .containerz .containerz-1 .bags2 .bags2-2 .card .cardtext {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .containerz .containerz-1 .bags2 .bags2-2 .card .sale {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .containerz .containerz-1 .bags2 .bags2-2 .card .sale .reddollar {
+    font-weight: 600;
+    color: red;
+    font-size: 20px;
+  }
+  .containerz .containerz-1 .bags2 .bags2-2 .card .sale .fromdollar {
+    font-size: 16px;
+    color: rgba(54, 54, 54, 0.75);
+    font-weight: 400;
+  }
+}
+.containera {
+  font-family: "Palanquin";
+  width: 1530px;
+  height: 738px;
+  background: rgb(255, 247, 247);
+}
+.containera .containera-1 {
+  width: 1000px;
+  margin: auto;
+}
+.containera .containera-1 .bags2-1-1 {
+  width: 1000px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containera .containera-1 .bags2-1-1 h4 {
+  font-size: 32px;
+  font-weight: 500;
+}
+.containera .containera-1 .bags2-1-1 .view {
+  font-size: 16px;
+  font-weight: 400;
+}
+.containera .containera-1 .bags2-2-2 {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.containera .containera-1 .bags2-2-2 .card {
+  position: relative;
+  width: 300px;
+  height: 508px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.containera .containera-1 .bags2-2-2 .card .otuz {
+  width: 79px;
+  height: 32px;
+  border-radius: 8px;
+  background: #DF4244;
+  color: white;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border: none;
+}
+.containera .containera-1 .bags2-2-2 .card .heartdolu {
+  position: absolute;
+  top: 18px;
+  right: 17px;
+  color: #DF4244;
+  font-weight: bolder;
+}
+.containera .containera-1 .bags2-2-2 .card .new {
+  width: 79px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgb(67, 209, 103);
+  color: white;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border: none;
+}
+.containera .containera-1 .bags2-2-2 .card .heart {
+  position: absolute;
+  top: 18px;
+  right: 17px;
+  color: red;
+}
+.containera .containera-1 .bags2-2-2 .card .addcard {
+  width: 250px;
+  height: 50px;
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  background: rgb(249, 249, 249);
+  border-radius: 8px;
+  border-width: 1px;
+}
+.containera .containera-1 .bags2-2-2 .card .cardback {
+  height: 243px;
+  width: 200px;
+  align-self: center;
+}
+.containera .containera-1 .bags2-2-2 .card .cardtext {
+  font-weight: 400;
+  font-size: 16px;
+}
+.containera .containera-1 .bags2-2-2 .card .sale {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.containera .containera-1 .bags2-2-2 .card .sale .reddollar {
+  font-weight: 600;
+  color: red;
+  font-size: 20px;
+}
+.containera .containera-1 .bags2-2-2 .card .sale .fromdollar {
+  font-size: 16px;
+  color: rgba(54, 54, 54, 0.75);
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .containera {
+    font-family: "Palanquin";
+    width: 600px;
+    height: auto;
+    background: rgb(255, 247, 247);
+  }
+  .containera .containera-1 {
+    width: 600px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .containera .containera-1 .bags2-1-1 {
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .containera .containera-1 .bags2-1-1 h4 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .containera .containera-1 .bags2-1-1 .view {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .containera .containera-1 .bags2-2-2 {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .containera .containera-1 .bags2-2-2 .card {
+    position: relative;
+    width: 300px;
+    height: 508px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .containera .containera-1 .bags2-2-2 .card .otuz {
+    width: 79px;
+    height: 32px;
+    border-radius: 8px;
+    background: #DF4244;
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    border: none;
+  }
+  .containera .containera-1 .bags2-2-2 .card .heartdolu {
+    position: absolute;
+    top: 18px;
+    right: 17px;
+    color: #DF4244;
+    font-weight: bolder;
+  }
+  .containera .containera-1 .bags2-2-2 .card .new {
+    width: 79px;
+    height: 32px;
+    border-radius: 8px;
+    background: rgb(67, 209, 103);
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    border: none;
+  }
+  .containera .containera-1 .bags2-2-2 .card .heart {
+    position: absolute;
+    top: 18px;
+    right: 17px;
+    color: red;
+  }
+  .containera .containera-1 .bags2-2-2 .card .addcard {
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    background: rgb(249, 249, 249);
+    border-radius: 8px;
+    border-width: 1px;
+  }
+  .containera .containera-1 .bags2-2-2 .card .cardback {
+    height: 243px;
+    width: 200px;
+    align-self: center;
+  }
+  .containera .containera-1 .bags2-2-2 .card .cardtext {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .containera .containera-1 .bags2-2-2 .card .sale {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .containera .containera-1 .bags2-2-2 .card .sale .reddollar {
+    font-weight: 600;
+    color: red;
+    font-size: 20px;
+  }
+  .containera .containera-1 .bags2-2-2 .card .sale .fromdollar {
+    font-size: 16px;
+    color: rgba(54, 54, 54, 0.75);
+    font-weight: 400;
+  }
+}
+.containerb {
+  font-family: "Palanquin";
+  width: 1530px;
+  height: 738px;
+}
+.containerb .containerb-1 {
+  width: 1000px;
+  margin: auto;
+}
+.containerb .containerb-1 .bags2-1-1 {
+  width: 1000px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerb .containerb-1 .bags2-1-1 h4 {
+  font-size: 32px;
+  font-weight: 500;
+}
+.containerb .containerb-1 .bags2-1-1 .view {
+  font-size: 16px;
+  font-weight: 400;
+}
+.containerb .containerb-1 .bags2-2-2 {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.containerb .containerb-1 .bags2-2-2 .card {
+  position: relative;
+  width: 300px;
+  height: 508px;
+  background: rgb(249, 249, 249);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.containerb .containerb-1 .bags2-2-2 .card .otuz {
+  width: 79px;
+  height: 32px;
+  border-radius: 8px;
+  background: #DF4244;
+  color: white;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border: none;
+}
+.containerb .containerb-1 .bags2-2-2 .card .heartdolu {
+  position: absolute;
+  top: 18px;
+  right: 17px;
+  color: #DF4244;
+  font-weight: bolder;
+}
+.containerb .containerb-1 .bags2-2-2 .card .new {
+  width: 79px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgb(67, 209, 103);
+  color: white;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border: none;
+}
+.containerb .containerb-1 .bags2-2-2 .card .heart {
+  position: absolute;
+  top: 18px;
+  right: 17px;
+  color: red;
+}
+.containerb .containerb-1 .bags2-2-2 .card .addcard {
+  width: 250px;
+  height: 50px;
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  background: rgb(249, 249, 249);
+  border-radius: 8px;
+  border-width: 1px;
+}
+.containerb .containerb-1 .bags2-2-2 .card .cardback {
+  height: 243px;
+  width: 200px;
+  align-self: center;
+}
+.containerb .containerb-1 .bags2-2-2 .card .cardtext {
+  font-weight: 400;
+  font-size: 16px;
+}
+.containerb .containerb-1 .bags2-2-2 .card .sale {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.containerb .containerb-1 .bags2-2-2 .card .sale .reddollar {
+  font-weight: 600;
+  color: red;
+  font-size: 20px;
+}
+.containerb .containerb-1 .bags2-2-2 .card .sale .fromdollar {
+  font-size: 16px;
+  color: rgba(54, 54, 54, 0.75);
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .containerb {
+    font-family: "Palanquin";
+    width: 600px;
+    height: auto;
+  }
+  .containerb .containerb-1 {
+    width: 600px;
+    margin: 0;
+  }
+  .containerb .containerb-1 .bags2-1-1 {
+    width: 600px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .containerb .containerb-1 .bags2-1-1 h4 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .containerb .containerb-1 .bags2-1-1 .view {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .containerb .containerb-1 .bags2-2-2 {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .containerb .containerb-1 .bags2-2-2 .card {
+    position: relative;
+    width: 300px;
+    height: 508px;
+    background: rgb(249, 249, 249);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .containerb .containerb-1 .bags2-2-2 .card .otuz {
+    width: 79px;
+    height: 32px;
+    border-radius: 8px;
+    background: #DF4244;
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    border: none;
+  }
+  .containerb .containerb-1 .bags2-2-2 .card .heartdolu {
+    position: absolute;
+    top: 18px;
+    right: 17px;
+    color: #DF4244;
+    font-weight: bolder;
+  }
+  .containerb .containerb-1 .bags2-2-2 .card .new {
+    width: 79px;
+    height: 32px;
+    border-radius: 8px;
+    background: rgb(67, 209, 103);
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    border: none;
+  }
+  .containerb .containerb-1 .bags2-2-2 .card .heart {
+    position: absolute;
+    top: 18px;
+    right: 17px;
+    color: red;
+  }
+  .containerb .containerb-1 .bags2-2-2 .card .addcard {
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    background: rgb(249, 249, 249);
+    border-radius: 8px;
+    border-width: 1px;
+  }
+  .containerb .containerb-1 .bags2-2-2 .card .cardback {
+    height: 243px;
+    width: 200px;
+    align-self: center;
+  }
+  .containerb .containerb-1 .bags2-2-2 .card .cardtext {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .containerb .containerb-1 .bags2-2-2 .card .sale {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .containerb .containerb-1 .bags2-2-2 .card .sale .reddollar {
+    font-weight: 600;
+    color: red;
+    font-size: 20px;
+  }
+  .containerb .containerb-1 .bags2-2-2 .card .sale .fromdollar {
+    font-size: 16px;
+    color: rgba(54, 54, 54, 0.75);
+    font-weight: 400;
+  }
+}/*# sourceMappingURL=main.css.map */
